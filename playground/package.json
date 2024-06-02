@@ -1,0 +1,17 @@
+{
+  "name": "jsonp-ts-playground-server",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "json ts playground server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vyacheslav Volodin<vachvol@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "fastify": "^4.27.0",
+    "@fastify/static": "^7.0.4"
+  }
+}

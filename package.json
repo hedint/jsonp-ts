@@ -1,0 +1,49 @@
+{
+  "name": "jsonp-ts",
+  "version": "0.0.1",
+  "description": "Modern JSONP library written in typescript",
+  "repository": "https://github.com/hedint/jsonp-ts",
+  "keywords": [
+    "jsonp",
+    "jsonp typescript",
+    "typescript jsonp",
+    "jsonp ts",
+    "ts jsonp",
+    "JSON with Padding"
+  ],
+  "type": "module",
+  "author": "Vyacheslav Volodin<vachvol@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && vite build",
+    "build:types": "dts-bundle-generator --config ./dts-bundle-generator.config.ts",
+    "lint:js": "eslint .",
+    "lint:fix": "npm run lint:js -- --fix && npm run lint:style -n- --fix",
+    "lint": "npm run lint:js",
+    "test:unit": "vitest run",
+    "test": "npm run test:unit",
+    "release": "npm run lint && npm run test && npm run build && changelogen --release && npm publish"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.3",
+    "@types/node": "^20.12.12",
+    "changelogen": "^0.5.5",
+    "dts-bundle-generator": "^9.5.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.9.1"
+  }
+}
