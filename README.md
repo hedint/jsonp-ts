@@ -128,11 +128,11 @@ jsonp('https://api.example.com/data', params)
  This project is licensed under the MIT License.
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt3-gtm/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-version-href]: https://npmjs.com/package/nuxt3-gtm
+[npm-version-src]: https://img.shields.io/npm/v/jsonp-ts/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/jsonp-ts
 
-[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt3-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
-[npm-downloads-href]: https://npmjs.com/package/nuxt3-gtm
+[npm-downloads-src]: https://img.shields.io/npm/dm/jsonp-ts.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/jsonp-ts
 
-[license-src]: https://img.shields.io/npm/l/nuxt3-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
-[license-href]: https://npmjs.com/package/nuxt3-gtm
+[license-src]: https://img.shields.io/npm/l/jsonp-ts.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/jsonp-ts
