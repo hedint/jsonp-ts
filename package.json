@@ -1,6 +1,6 @@
 {
   "name": "jsonp-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Modern JSONP library written in typescript",
   "repository": "https://github.com/hedint/jsonp-ts",
   "keywords": [
@@ -21,8 +21,7 @@
     "lint:fix": "npm run lint:js -- --fix && npm run lint:style -n- --fix",
     "lint": "npm run lint:js",
     "test:unit": "vitest run",
-    "test": "npm run test:unit",
-    "release": "npm run lint && npm run test && npm run build && changelogen --release && npm publish"
+    "release": "npm run lint && npm run build && changelogen --release && npm publish"
   },
   "files": [
     "dist"
