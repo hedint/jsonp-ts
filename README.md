@@ -106,7 +106,7 @@ jsonp('https://api.example.com/data')
 ### Custom parameters example:
 
 ```typescript
-import { jsonp } from 'jsonp-library';
+import { jsonp } from 'jsonp-ts';
 
 const params = {
   param: 'customCallback',
