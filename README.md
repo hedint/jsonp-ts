@@ -1,5 +1,10 @@
 # JSONP typescript Library
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+[![License][license-src]][license-href]
+
+
 A simple and lightweight library for making JSONP (JSON with Padding) requests in TypeScript/JavaScript.
 
 ## Table of Contents
@@ -121,3 +126,13 @@ jsonp('https://api.example.com/data', params)
 ## License
 
  This project is licensed under the MIT License.
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/nuxt3-gtm/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-version-href]: https://npmjs.com/package/nuxt3-gtm
+
+[npm-downloads-src]: https://img.shields.io/npm/dm/nuxt3-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
+[npm-downloads-href]: https://npmjs.com/package/nuxt3-gtm
+
+[license-src]: https://img.shields.io/npm/l/nuxt3-gtm.svg?style=flat&colorA=18181B&colorB=28CF8D
+[license-href]: https://npmjs.com/package/nuxt3-gtm
